@@ -1,0 +1,42 @@
+#country-info {
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.country {
+    background: #ffffff;
+    padding: 20px 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+
+.country:hover {
+    transform: translateY(-5px);
+}
+
+
+.country img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.country h1 {
+    color: #333;
+    margin: 5px 0;
+}
+
+.country h4 {
+    color: #555;
+    margin: 5px 0;
+}
+
+.country p {
+    margin: 3px 0;
+    font-size: 14px;
+}
